@@ -20,3 +20,8 @@ Comprobar la versión de Java.
 
 ## Referencia
 https://codelearnacademy.github.io/java/leccion01/
+
+## Conceptos clave
+- Diferencia entre JVM y JDK.
+- Proceso de compilación con javac.
+- Ejecución de un programa.
