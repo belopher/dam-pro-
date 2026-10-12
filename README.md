@@ -17,5 +17,7 @@ Besay López Hernández.
 - [Unidad 03 - Estructuras de control](unidad-03/)
 - [Unidad 04 - Organización de clases](unidad-04/)
 - [Unidad 05 - Entrada y salida](unidad-05/)
+- [Unidad 06 - Colecciones y tipos avanzados](unidad-06/)
+
 ## Estado
 En construcción.
