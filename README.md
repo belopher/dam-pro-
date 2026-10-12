@@ -19,5 +19,7 @@ Besay López Hernández.
 - [Unidad 05 - Entrada y salida](unidad-05/)
 - [Unidad 06 - Colecciones y tipos avanzados](unidad-06/)
 - [Unidad 07 - Herencia e interfaces](unidad-07/)
+- [Unidad 08 - Persistencia con SQLite](unidad-08/)
+
 ## Estado
 En construcción.
