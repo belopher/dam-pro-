@@ -21,3 +21,8 @@ Conversor de Celsius a Fahrenheit.
 
 ## Referencia
 https://codelearnacademy.github.io/java/leccion02/
+
+## Conceptos clave
+- Tipos primitivos.
+- Declaración de variables.
+- Parámetros y retorno.
