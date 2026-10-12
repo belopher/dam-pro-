@@ -34,3 +34,6 @@ https://codelearnacademy.github.io/java/
 
 ## Revisión desde GitHub
 Un proyecto completo requiere análisis, implementación y verificación.
+
+## Ronda de sincronización 6
+Con esta ronda ambas copias reflejan los mismos cambios.
