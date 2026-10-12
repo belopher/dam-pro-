@@ -30,3 +30,6 @@ https://codelearnacademy.github.io/java/leccion03/
 1. Comprobar si un número es par.
 2. Crear una tabla de multiplicar.
 3. Validar una entrada de usuario.
+
+## Seguimiento del equipo 2
+Cambio propio pendiente de sincronización.
