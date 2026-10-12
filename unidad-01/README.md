@@ -32,3 +32,6 @@ https://codelearnacademy.github.io/java/leccion01/
 3. Explicar qué es el bytecode.
 ## Revisión desde GitHub
    Entender el entorno es necesario antes de crear aplicaciones.
+
+## Seguimiento del equipo 2
+Revisión realizada desde la segunda copia local.
