@@ -34,3 +34,6 @@ https://codelearnacademy.github.io/java/leccion07/
 
 ## Revisión desde GitHub
 El polimorfismo permite trabajar con distintas implementaciones.
+
+## Ronda de sincronización 4
+Antes de integrar, conviene revisar la diferencia con git diff.
