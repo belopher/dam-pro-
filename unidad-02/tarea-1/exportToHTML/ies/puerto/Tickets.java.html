@@ -1,0 +1,57 @@
+<html>
+<head>
+<title>Tickets.java</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #cf8e6d;}
+.s1 { color: #bcbec4;}
+.s2 { color: #bcbec4;}
+.s3 { color: #5f826b; font-style: italic;}
+.s4 { color: #67a37c; font-style: italic;}
+.s5 { color: #2aacb8;}
+.s6 { color: #6aab73;}
+</style>
+</head>
+<body bgcolor="#191a1c">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+Tickets.java</font>
+</center></td></tr></table>
+<pre><span class="s0">package </span><span class="s1">ies</span><span class="s2">.</span><span class="s1">puerto</span><span class="s2">;</span>
+
+<span class="s0">import </span><span class="s1">java</span><span class="s2">.</span><span class="s1">util</span><span class="s2">.</span><span class="s1">Scanner</span><span class="s2">;</span>
+
+<span class="s0">public class </span><span class="s1">Tickets </span><span class="s2">{</span>
+    <span class="s3">/**</span>
+     <span class="s3">* </span><span class="s4">@author </span><span class="s3">belopher</span>
+     <span class="s3">* </span><span class="s4">@version </span><span class="s3">1.0.0</span>
+     <span class="s3">*/</span>
+    <span class="s0">public static void </span><span class="s1">main</span><span class="s2">(</span><span class="s1">String</span><span class="s2">[] </span><span class="s1">args</span><span class="s2">) {</span>
+        <span class="s1">Scanner teclado </span><span class="s2">= </span><span class="s0">new </span><span class="s1">Scanner</span><span class="s2">(</span><span class="s1">System</span><span class="s2">.</span><span class="s1">in</span><span class="s2">);</span>
+        <span class="s0">int </span><span class="s1">productos </span><span class="s2">= </span><span class="s5">0</span><span class="s2">;</span>
+        <span class="s0">float </span><span class="s1">suma </span><span class="s2">= </span><span class="s5">0</span><span class="s2">;</span>
+        <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s6">&quot;Intoduce tu nombre&quot;</span><span class="s2">);</span>
+        <span class="s1">String nombre </span><span class="s2">= </span><span class="s1">teclado</span><span class="s2">.</span><span class="s1">nextLine</span><span class="s2">();</span>
+        <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s6">&quot;¿Cuántos productos vas a comprar?&quot;</span><span class="s2">);</span>
+        <span class="s1">productos </span><span class="s2">= </span><span class="s1">teclado</span><span class="s2">.</span><span class="s1">nextInt</span><span class="s2">();</span>
+
+        <span class="s0">for </span><span class="s2">(</span><span class="s0">int </span><span class="s1">i </span><span class="s2">= </span><span class="s5">1</span><span class="s2">; </span><span class="s1">i </span><span class="s2">&lt;=</span><span class="s1">productos</span><span class="s2">; </span><span class="s1">i</span><span class="s2">++) {</span>
+            <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s6">&quot;Producto&quot; </span><span class="s2">+</span><span class="s1">i</span><span class="s2">);</span>
+            <span class="s1">teclado</span><span class="s2">.</span><span class="s1">nextLine</span><span class="s2">();</span>
+            <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s6">&quot;Nombre:&quot;</span><span class="s2">);</span>
+            <span class="s1">String nombreProducto </span><span class="s2">= </span><span class="s1">teclado</span><span class="s2">.</span><span class="s1">nextLine</span><span class="s2">();</span>
+            <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s6">&quot;Precio:&quot;</span><span class="s2">);</span>
+            <span class="s0">float </span><span class="s1">precioProducto </span><span class="s2">= </span><span class="s1">teclado</span><span class="s2">.</span><span class="s1">nextFloat</span><span class="s2">();</span>
+            <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s1">nombreProducto </span><span class="s2">+</span><span class="s6">&quot;-&quot;</span><span class="s2">+</span><span class="s1">precioProducto</span><span class="s2">+</span><span class="s6">&quot; euros&quot;</span><span class="s2">);</span>
+            <span class="s1">suma </span><span class="s2">= </span><span class="s1">suma </span><span class="s2">+ </span><span class="s1">productos</span><span class="s2">;</span>
+        <span class="s2">}</span>
+        <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s6">&quot;Cliente&quot; </span><span class="s2">+</span><span class="s1">nombre</span><span class="s2">);</span>
+        <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s6">&quot;Total de productos&quot; </span><span class="s2">+</span><span class="s1">productos</span><span class="s2">);</span>
+        <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s6">&quot;Total&quot; </span><span class="s2">+</span><span class="s1">suma</span><span class="s2">);</span>
+        <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s6">&quot;Gracias por su compra&quot; </span><span class="s2">+</span><span class="s1">nombre</span><span class="s2">);</span>
+    <span class="s2">}</span>
+<span class="s2">}</span>
+</pre>
+</body>
+</html>
