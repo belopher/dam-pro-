@@ -29,12 +29,5 @@ public class Tickets {
             System.out.println(nombreProducto +"-"+precioProducto+" euros");
             suma = suma + productos;
         }
-        System.out.println("====================================");
-        System.out.println("            TOTAL DEL TICKET");
-        System.out.println("====================================");
-        System.out.println("Cliente: " +nombre);
-        System.out.println("Total de productos: " +productos);
-        System.out.println("Total: " +suma);
-        System.out.println("Gracias por su compra: " +nombre);
     }
 }

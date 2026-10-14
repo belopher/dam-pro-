@@ -37,3 +37,7 @@ https://codelearnacademy.github.io/java/leccion02/
 
 ## Seguimiento del equipo 1
 Revisión realizada desde la primera copia local.
+
+##| Tarea | Descripción | Estado |
+|---|---|---|
+| Tarea 1 | Generador de tickets de compra | Terminada |
