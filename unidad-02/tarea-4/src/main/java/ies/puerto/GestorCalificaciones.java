@@ -33,8 +33,8 @@ public class GestorCalificaciones {
     }
 
     /**
-     *
-     * @param sNumero
+     * Funcion que sirve para pasar un numero a nota
+     * @param sNumero String de numero
      * @return
      */
   static int convertirNumeroNota(String sNumero) {
@@ -48,8 +48,8 @@ public class GestorCalificaciones {
    }
 
     /**
-     *
-     * @param sNumero
+     * Funcion que permite convertir una nota
+     * @param sNumero String de numero
      * @return
      */
    static double convertirNota(String sNumero){
@@ -63,8 +63,8 @@ public class GestorCalificaciones {
    }
 
     /**
-     *
-     * @param dNumero
+     *Funcion que permite reconocer si la nota es valida o no
+     * @param dNumero Double que contiene el numero
      * @return
      */
    static boolean esNotaValida(Double dNumero) {
@@ -81,7 +81,7 @@ public class GestorCalificaciones {
    }
 
     /**
-     *
+     * Funcion que permite solicitar las notas
      * @return
      */
    static Double soliciarNotaValida(){
@@ -100,8 +100,8 @@ public class GestorCalificaciones {
   }
 
     /**
-     *
-     * @param dNotas
+     * Funcion que calcula la media de las notas en una lista
+     * @param dNotas List de Double que contiene las notas
      * @return
      */
   static double calcularMedia(List<Double> dNotas){
@@ -115,8 +115,8 @@ public class GestorCalificaciones {
   }
 
     /**
-     *
-     * @param lNotas
+     * Funcion que permite calcular las notas maximas
+     * @param lNotas List de Double que contiene las notas
      * @return
      */
   static double obtenerMaxima(List<Double> lNotas){
@@ -135,8 +135,8 @@ public class GestorCalificaciones {
   }
 
     /**
-     *
-     * @param lNotas
+     * Funcion que permite calcular las notas minimas
+     * @param lNotas List de Double que contiene las notas
      * @return
      */
 
