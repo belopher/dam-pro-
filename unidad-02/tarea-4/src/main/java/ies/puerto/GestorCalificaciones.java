@@ -32,6 +32,11 @@ public class GestorCalificaciones {
         System.out.println("El valor maximo es:" +maximo);
     }
 
+    /**
+     *
+     * @param sNumero
+     * @return
+     */
   static int convertirNumeroNota(String sNumero) {
        int numero = 0;
        if (sNumero == null || sNumero.isEmpty()){
@@ -41,6 +46,12 @@ public class GestorCalificaciones {
        numero = Integer.parseInt(sNumero);
        return numero;
    }
+
+    /**
+     *
+     * @param sNumero
+     * @return
+     */
    static double convertirNota(String sNumero){
       double numero = 0;
 
@@ -50,6 +61,12 @@ public class GestorCalificaciones {
       numero =Double.parseDouble(sNumero);
       return numero;
    }
+
+    /**
+     *
+     * @param dNumero
+     * @return
+     */
    static boolean esNotaValida(Double dNumero) {
        if (dNumero == null) {
            return false;
@@ -63,6 +80,10 @@ public class GestorCalificaciones {
        return true;
    }
 
+    /**
+     *
+     * @return
+     */
    static Double soliciarNotaValida(){
        Scanner teclado = new Scanner(System.in);
        System.out.println("Introduce una nota");
@@ -77,6 +98,12 @@ public class GestorCalificaciones {
        boolean bValida = esNotaValida(dNumero);
        return dNumero;
   }
+
+    /**
+     *
+     * @param dNotas
+     * @return
+     */
   static double calcularMedia(List<Double> dNotas){
         double media = 0;
         double suma = 0;
@@ -86,6 +113,12 @@ public class GestorCalificaciones {
       media = suma/dNotas.size();
         return media;
   }
+
+    /**
+     *
+     * @param lNotas
+     * @return
+     */
   static double obtenerMaxima(List<Double> lNotas){
         double maximo = 0;
       for (int i = 0; i < lNotas.size(); i++) {
@@ -100,6 +133,13 @@ public class GestorCalificaciones {
 
 
   }
+
+    /**
+     *
+     * @param lNotas
+     * @return
+     */
+
     static double obtenerMinimo(List<Double> lNotas){
         double minimo = 0;
         for (int i = 0; i < lNotas.size(); i++) {
