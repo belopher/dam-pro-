@@ -1,5 +1,9 @@
 package ies.puerto;
 
+/**
+ * @author  belopher
+ * @version 1.0.0
+ */
 public class ClaveSecreta {
     static void main() {
     //o O = 0
@@ -8,16 +12,22 @@ public class ClaveSecreta {
     //e E = *
     //a A = ?
     }
-    static String generarClaveSEgura (String palabra) {
+    static String generarClaveSEgura (String sPalabra) {
         String clave = "";
 
-        if (palabra == null || palabra.isEmpty()){
+        if (sPalabra == null || sPalabra.isEmpty()){
 
         }
-        palabra.replace("a","?");
-        palabra.replace("A","?");
-
-
+        sPalabra = sPalabra.replace("a","?");
+        sPalabra = sPalabra.replace("A","?");
+        sPalabra = sPalabra.replace("e","?");
+        sPalabra = sPalabra.replace("E","?");
+        sPalabra = sPalabra.replace("u","?");
+        sPalabra = sPalabra.replace("U","?");
+        sPalabra = sPalabra.replace("o","?");
+        sPalabra = sPalabra.replace("O","?");
+        sPalabra = sPalabra.replace("i","?");
+        sPalabra = sPalabra.replace("I","?");
 
         return clave;
     }
