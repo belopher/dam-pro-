@@ -4,14 +4,15 @@ package es.dampro.unidad2.tarea6;
  * @author belopher
  * @version 1.0.0
  */
-/**
- * Utilidad para obtener el mayor número de una lista de enteros.
- */
+
+
+
 public class MayorNumero {
 
     private static final String SEPARADOR = ",";
 
     /**
+     * Utilidad para obtener el mayor número de una lista de enteros.
      * Extrae el mayor entero de una lista separada por comas. Admite números
      * negativos y espacios alrededor de cada elemento.
      *
