@@ -1,6 +1,9 @@
 package es.dampro.unidad2.tarea6;
 
-/** TODO: documenta la finalidad de la clase. */
+/**
+ * @author belopher
+ * @version 1.0.0
+ */
 public final class ContadorVocales {
     private ContadorVocales() { }
 

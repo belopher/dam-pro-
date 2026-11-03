@@ -1,7 +1,8 @@
 package es.dampro.unidad2.tarea6;
 
 /**
- * TODO: documenta el propósito y la responsabilidad de la clase Palindromo.
+ * @author belopher
+ * @version 1.0.0
  */
 public final class Palindromo {
 

@@ -1,5 +1,8 @@
 package es.dampro.unidad2.tarea6;
-/** Programa principal que debe demostrar los diez algoritmos con ejemplos. */
+/**
+ * @author belopher
+ * @version 1.0.0
+ */
 public final class Main {
     private Main() { }
     /** Ejecuta las diez demostraciones de los algoritmos de la tarea.

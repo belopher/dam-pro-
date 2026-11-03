@@ -1,7 +1,8 @@
 package es.dampro.unidad2.tarea6;
 
 /**
- * TODO: documenta el propósito y la responsabilidad de la clase NumeroPrimo.
+ * @author belopher
+ * @version 1.0.0
  */
 public final class NumeroPrimo {
 
@@ -15,7 +16,7 @@ public final class NumeroPrimo {
      * @return Verdadero si es primo; falso en otro caso.
      */
     public static boolean esPrimo(String numero) {
-        // TODO: implementa el algoritmo sin sustituirlo por una función que lo resuelva directamente.
         throw new UnsupportedOperationException("Método pendiente de implementar: esPrimo");
+
     }
 }
