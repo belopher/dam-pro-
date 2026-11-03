@@ -11,12 +11,24 @@ public final class InvertirCadena {
     }
 
     /**
-     * TODO: explica el algoritmo y su comportamiento con datos límite.
-     * @param texto Dato de entrada que debe cumplir el contrato del enunciado.
-     * @return Cadena invertida, conservando espacios y mayúsculas.
+     * @param texto texto a invertir; no puede ser null
+     * @return el texto con los caracteres en orden inverso
+     * @throws IllegalArgumentException si el texto es null
      */
     public static String invertir(String texto) {
-        // TODO: implementa el algoritmo sin sustituirlo por una función que lo resuelva directamente.
-        throw new UnsupportedOperationException("Método pendiente de implementar: invertir");
+        if (texto == null) {
+            throw new IllegalArgumentException("El texto no puede ser null");
+        }
+        char[] caracteres = texto.toCharArray();
+        int izquierda = 0;
+        int derecha = caracteres.length - 1;
+        while (izquierda < derecha) {
+            char intercambio = caracteres[izquierda];
+            caracteres[izquierda] = caracteres[derecha];
+            caracteres[derecha] = intercambio;
+            izquierda++;
+            derecha--;
+        }
+        return new String(caracteres);
     }
 }
