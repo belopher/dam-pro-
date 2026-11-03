@@ -4,19 +4,43 @@ package es.dampro.unidad2.tarea6;
  * @author belopher
  * @version 1.0.0
  */
-public final class Palindromo {
-
-    private Palindromo() {
-        // Clase de algoritmos estáticos.
-    }
+/**
+ * Utilidad para comprobar si un texto es palíndromo.
+ */
+public class Palindromo {
 
     /**
-     * TODO: explica el algoritmo y su comportamiento con datos límite.
-     * @param texto Dato de entrada que debe cumplir el contrato del enunciado.
-     * @return Resultado de la comprobación sin distinguir mayúsculas ni espacios.
+     * Comprueba si un texto se lee igual de izquierda a derecha y viceversa.
+     * Ignora espacios y diferencias entre mayúsculas y minúsculas, pero no
+     * ignora signos de puntuación ni tildes. Un texto vacío (o solo con
+     * espacios) no se considera palíndromo.
+     *
+     * @param texto texto a comprobar; no puede ser null
+     * @return true si el texto es palíndromo, false en caso contrario
+     * @throws IllegalArgumentException si el texto es null
      */
-    public static boolean esPalindromo(String texto) {
-        // TODO: implementa el algoritmo sin sustituirlo por una función que lo resuelva directamente.
-        throw new UnsupportedOperationException("Método pendiente de implementar: esPalindromo");
+    public boolean esPalindromo(String texto) {
+        if (texto == null) {
+            throw new IllegalArgumentException("El texto no puede ser null");
+        }
+        StringBuilder normalizado = new StringBuilder();
+        for (char caracter : texto.toCharArray()) {
+            if (!Character.isWhitespace(caracter)) {
+                normalizado.append(Character.toLowerCase(caracter));
+            }
+        }
+        if (normalizado.length() == 0) {
+            return false;
+        }
+        int izquierda = 0;
+        int derecha = normalizado.length() - 1;
+        while (izquierda < derecha) {
+            if (normalizado.charAt(izquierda) != normalizado.charAt(derecha)) {
+                return false;
+            }
+            izquierda++;
+            derecha--;
+        }
+        return true;
     }
 }
