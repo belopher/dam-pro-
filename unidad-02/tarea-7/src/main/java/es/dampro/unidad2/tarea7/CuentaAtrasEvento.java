@@ -1,27 +1,26 @@
 package es.dampro.unidad2.tarea7;
 
-import java.time.*;
-import java.time.format.*;
+import java.time.LocalDate;
 import java.time.temporal.ChronoUnit;
 
 /**
- * TODO: Describe la finalidad de CuentaAtrasEvento.
+ * Utilidad para calcular cuántos días faltan para un evento.
  *
- * @author
- * @version
+ * @author Nombre y apellidos
+ * @version 1.0
  */
 public final class CuentaAtrasEvento {
-    private CuentaAtrasEvento() { }
 
     /**
-     * TODO: Describe lo que hace el método.
+     * Calcula los días naturales con signo entre hoy y la fecha de un evento:
+     * positivo si el evento aún no ha llegado, cero si es hoy y negativo si
+     * ya ocurrió.
      *
-     * @param hoy
-     * @param evento
-     * @return
+     * @param hoy    fecha de referencia
+     * @param evento fecha del evento
+     * @return días naturales desde hoy hasta el evento, con signo
      */
     public static long calcularDiasRestantes(LocalDate hoy, LocalDate evento) {
-        // TODO: Implementa el algoritmo según el enunciado.
-        return 0L;
+        return ChronoUnit.DAYS.between(hoy, evento);
     }
 }
