@@ -1,27 +1,38 @@
 package es.dampro.unidad2.tarea7;
 
-import java.time.*;
-import java.time.format.*;
-import java.time.temporal.ChronoUnit;
+import java.time.LocalDate;
 
 /**
- * TODO: Describe la finalidad de ProximoCumpleanios.
+ * Utilidad para calcular la fecha del próximo cumpleaños de una persona.
  *
- * @author
- * @version
+ * @author Nombre y apellidos
+ * @version 1.0
  */
 public final class ProximoCumpleanios {
-    private ProximoCumpleanios() { }
 
     /**
-     * TODO: Describe lo que hace el método.
+     * Calcula la fecha del próximo cumpleaños, incluyendo el propio día de hoy
+     * si coincide. Para quien nació el 29 de febrero, en los años no bisiestos
+     * el cumpleaños se celebra el 28 de febrero (ajuste que realiza
+     * {@link LocalDate#withYear(int)}).
      *
-     * @param nacimiento
-     * @param hoy
-     * @return
+     * @param nacimiento fecha de nacimiento; no puede ser posterior a hoy
+     * @param hoy        fecha de referencia desde la que se busca el cumpleaños
+     * @return la fecha del próximo cumpleaños, igual o posterior a hoy
+     * @throws IllegalArgumentException si alguna fecha es null o el nacimiento
+     *                                  es posterior a hoy
      */
     public static LocalDate calcularProximoCumpleanios(LocalDate nacimiento, LocalDate hoy) {
-        // TODO: Implementa el algoritmo según el enunciado.
-        return LocalDate.MIN;
+        if (nacimiento == null || hoy == null) {
+            throw new IllegalArgumentException("Las fechas no pueden ser null");
+        }
+        if (nacimiento.isAfter(hoy)) {
+            throw new IllegalArgumentException("El nacimiento no puede ser posterior a hoy");
+        }
+        LocalDate cumpleaniosEsteAnio = nacimiento.withYear(hoy.getYear());
+        if (cumpleaniosEsteAnio.isBefore(hoy)) {
+            return nacimiento.withYear(hoy.getYear() + 1);
+        }
+        return cumpleaniosEsteAnio;
     }
 }
