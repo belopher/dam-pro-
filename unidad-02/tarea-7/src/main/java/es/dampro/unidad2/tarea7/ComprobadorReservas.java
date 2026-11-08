@@ -5,7 +5,7 @@ import java.time.LocalDateTime;
 /**
  * Utilidad para detectar conflictos entre reservas.
  *
- * @author Nombre y apellidos
+ * @author belopher
  * @version 1.0
  */
 public final class ComprobadorReservas {

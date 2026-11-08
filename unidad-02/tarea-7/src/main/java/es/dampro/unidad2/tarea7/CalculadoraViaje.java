@@ -5,7 +5,7 @@ import java.time.LocalDateTime;
 /**
  * Utilidad para calcular la hora de llegada de un viaje.
  *
- * @author Nombre y apellidos
+ * @author belopher
  * @version 1.0
  */
 public final class CalculadoraViaje {

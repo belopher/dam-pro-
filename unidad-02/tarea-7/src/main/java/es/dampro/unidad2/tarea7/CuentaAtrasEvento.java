@@ -6,7 +6,7 @@ import java.time.temporal.ChronoUnit;
 /**
  * Utilidad para calcular cuántos días faltan para un evento.
  *
- * @author Nombre y apellidos
+ * @author belopher
  * @version 1.0
  */
 public final class CuentaAtrasEvento {

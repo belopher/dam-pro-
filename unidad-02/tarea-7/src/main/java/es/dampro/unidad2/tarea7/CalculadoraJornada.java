@@ -6,7 +6,7 @@ import java.time.LocalTime;
 /**
  * Utilidad para calcular el tiempo efectivo de una jornada laboral.
  *
- * @author Nombre y apellidos
+ * @author belopher
  * @version 1.0
  */
 public final class CalculadoraJornada {

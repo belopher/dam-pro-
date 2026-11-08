@@ -5,7 +5,7 @@ import java.time.LocalDate;
 /**
  * Utilidad para calcular la fecha del próximo cumpleaños de una persona.
  *
- * @author Nombre y apellidos
+ * @author belopher
  * @version 1.0
  */
 public final class ProximoCumpleanios {

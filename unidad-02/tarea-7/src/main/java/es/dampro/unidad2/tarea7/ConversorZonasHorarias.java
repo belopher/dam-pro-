@@ -6,7 +6,7 @@ import java.time.ZonedDateTime;
 /**
  * Utilidad para convertir fechas y horas entre zonas horarias.
  *
- * @author Nombre y apellidos
+ * @author belopher
  * @version 1.0
  */
 public final class ConversorZonasHorarias {

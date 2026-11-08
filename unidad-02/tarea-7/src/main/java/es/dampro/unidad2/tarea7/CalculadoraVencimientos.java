@@ -5,7 +5,7 @@ import java.time.LocalDate;
 /**
  * Utilidad para calcular fechas de vencimiento a partir de una fecha base.
  *
- * @author Nombre y apellidos
+ * @author belopher
  * @version 1.0
  */
 public final class CalculadoraVencimientos {

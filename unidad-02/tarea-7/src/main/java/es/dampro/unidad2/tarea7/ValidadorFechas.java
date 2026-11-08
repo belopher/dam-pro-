@@ -8,7 +8,7 @@ import java.time.format.ResolverStyle;
 /**
  * Utilidad para validar y convertir fechas escritas como texto.
  *
- * @author Nombre y apellidos
+ * @author belopher
  * @version 1.0
  */
 public final class ValidadorFechas {
