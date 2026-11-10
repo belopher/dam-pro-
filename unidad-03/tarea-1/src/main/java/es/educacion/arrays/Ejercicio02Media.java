@@ -7,8 +7,29 @@ package es.educacion.arrays;
 public final class Ejercicio02Media {
     private Ejercicio02Media() { }
 
-    // Calcula la media aritmética con decimales. Vacío o null: IllegalArgumentException.
+
+    public static void main(String[] args) {
+        int[] notas = {8,7,3,2,10};
+        double resultado = media(notas);
+        System.out.println("La media es = " +resultado);
+    }
+
+    /**
+     * Calcula la media de un array de notas
+     * @param notas int[] de notas
+     * @return double con el resultado
+     * @exception IllegalArgumentException
+     */
     public static double media(int[] notas) {
-        throw new UnsupportedOperationException("Pendiente de implementar");
+        if (notas == null || notas.length == 0){
+            throw new IllegalArgumentException();
+        }
+        double suma = 0;
+        for (double nota:notas ){
+           suma = suma + nota;
+        }
+        double resultado = suma/notas.length;
+        return resultado;
+
     }
 }
