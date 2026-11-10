@@ -1,8 +1,9 @@
 package es.educacion.arrays;
 
-// Suma todos los valores. Array vacío: 0. Array null: IllegalArgumentException.
-// 
-// TODO: implementar el método y documentar la clase y el método mediante Javadoc.
+/**
+ * @author belopher
+ * @version 1.0.0
+ */
 public final class Ejercicio01Sumar {
     private Ejercicio01Sumar() { }
 
