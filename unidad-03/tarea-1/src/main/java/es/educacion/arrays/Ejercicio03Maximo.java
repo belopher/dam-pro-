@@ -1,8 +1,9 @@
 package es.educacion.arrays;
 
-// Devuelve el mayor valor. Vacío o null: IllegalArgumentException.
-// 
-// TODO: implementar el método y documentar la clase y el método mediante Javadoc.
+/**
+ * @author belopher
+ * @version 1.0.0
+ */
 public final class Ejercicio03Maximo {
     private Ejercicio03Maximo() { }
 

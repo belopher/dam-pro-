@@ -1,7 +1,9 @@
 package es.educacion.arrays;
 
-// Ejercicio 13. Devuelve cuántas veces aparece un valor. Se admiten negativos y ceros. Null: IllegalArgumentException.
-// TODO: escribir el Javadoc de la clase, del método, sus parámetros y retorno.
+/**
+ * @author belopher
+ * @version 1.0.0
+ */
 public final class Ejercicio13Frecuencia {
     private Ejercicio13Frecuencia() { }
 

@@ -1,7 +1,9 @@
 package es.educacion.arrays;
 
-// Ejercicio 19. Cuenta las apariciones de un valor en una matriz, incluso irregular. Matriz o filas nulas: IllegalArgumentException.
-// TODO: escribir el Javadoc de la clase, del método, sus parámetros y retorno.
+/**
+ * @author belopher
+ * @version 1.0.0
+ */
 public final class Ejercicio19ContarMatriz {
     private Ejercicio19ContarMatriz() { }
 

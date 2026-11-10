@@ -1,8 +1,9 @@
 package es.educacion.arrays;
 
-// Devuelve un array nuevo con los elementos en orden inverso. No modifica el original. Null: IllegalArgumentException.
-// 
-// TODO: implementar el método y documentar la clase y el método mediante Javadoc.
+/**
+ * @author belopher
+ * @version 1.0.0
+ */
 public final class Ejercicio06Invertir {
     private Ejercicio06Invertir() { }
 

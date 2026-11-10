@@ -1,8 +1,9 @@
 package es.educacion.arrays;
 
-// Calcula la media aritmética con decimales. Vacío o null: IllegalArgumentException.
-// 
-// TODO: implementar el método y documentar la clase y el método mediante Javadoc.
+/**
+ * @author belopher
+ * @version 1.0.0
+ */
 public final class Ejercicio02Media {
     private Ejercicio02Media() { }
 

@@ -1,8 +1,9 @@
 package es.educacion.arrays;
 
-// Fusiona dos arrays ya ordenados ascendentemente, conservando repetidos, en un array nuevo ordenado. Null: IllegalArgumentException.
-// 
-// TODO: implementar el método y documentar la clase y el método mediante Javadoc.
+/**
+ * @author belopher
+ * @version 1.0.0
+ */
 public final class Ejercicio10FusionarOrdenados {
     private Ejercicio10FusionarOrdenados() { }
 

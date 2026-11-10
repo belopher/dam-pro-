@@ -1,8 +1,9 @@
 package es.educacion.arrays;
 
-// Devuelve un array nuevo ordenado ascendentemente, sin modificar el original. Null: IllegalArgumentException.
-// 
-// TODO: implementar el método y documentar la clase y el método mediante Javadoc.
+/**
+ * @author belopher
+ * @version 1.0.0
+ */
 public final class Ejercicio07Ordenar {
     private Ejercicio07Ordenar() { }
 

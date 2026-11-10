@@ -1,8 +1,9 @@
 package es.educacion.arrays;
 
-// Devuelve el índice de la primera aparición o -1. No requiere ordenar. Null: IllegalArgumentException.
-// 
-// TODO: implementar el método y documentar la clase y el método mediante Javadoc.
+/**
+ * @author belopher
+ * @version 1.0.0
+ */
 public final class Ejercicio05Buscar {
     private Ejercicio05Buscar() { }
 

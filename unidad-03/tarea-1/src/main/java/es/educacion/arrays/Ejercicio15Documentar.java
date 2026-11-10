@@ -1,7 +1,9 @@
 package es.educacion.arrays;
 
-// Ejercicio 15: documentación Javadoc. Añade Javadoc descriptivo a la clase y ambos métodos.
-// Describe su finalidad y documenta cada parámetro y valor de retorno.
+/**
+ * @author belopher
+ * @version 1.0.0
+ */
 public final class Ejercicio15Documentar {
     private Ejercicio15Documentar() { }
 

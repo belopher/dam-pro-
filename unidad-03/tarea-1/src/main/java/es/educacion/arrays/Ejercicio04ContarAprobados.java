@@ -1,8 +1,9 @@
 package es.educacion.arrays;
 
-// Cuenta las notas >= 5. Array vacío: 0. Null: IllegalArgumentException.
-// 
-// TODO: implementar el método y documentar la clase y el método mediante Javadoc.
+/**
+ * @author belopher
+ * @version 1.0.0
+ */
 public final class Ejercicio04ContarAprobados {
     private Ejercicio04ContarAprobados() { }
 

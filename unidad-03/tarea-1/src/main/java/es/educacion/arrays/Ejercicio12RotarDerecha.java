@@ -1,7 +1,9 @@
 package es.educacion.arrays;
 
-// Ejercicio 12. Devuelve una copia rotada a la derecha el número no negativo de posiciones. Vacío devuelve vacío. No modifica el original. Null o posiciones negativas: IllegalArgumentException.
-// TODO: escribir el Javadoc de la clase, del método, sus parámetros y retorno.
+/**
+ * @author belopher
+ * @version 1.0.0
+ */
 public final class Ejercicio12RotarDerecha {
     private Ejercicio12RotarDerecha() { }
 
