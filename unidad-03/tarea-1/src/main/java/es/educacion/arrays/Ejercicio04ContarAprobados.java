@@ -7,8 +7,45 @@ package es.educacion.arrays;
 public final class Ejercicio04ContarAprobados {
     private Ejercicio04ContarAprobados() { }
 
-    // Cuenta las notas >= 5. Array vacío: 0. Null: IllegalArgumentException.
+    public static void main(String[] args) {
+        int[] notas ={5,2,1,10,8};
+        int aprobados = contarAprobados(notas);
+        System.out.println("Numero de aprobados = " +aprobados);
+        int suspensos = contarAprobados(notas);
+        System.out.println("Numero de suspensos = " +suspensos);
+    }
+    /**
+     * Calcular el numero de aprobados
+     * @param notas int[] de notas
+     * @return
+     */
     public static int contarAprobados(int[] notas) {
-        throw new UnsupportedOperationException("Pendiente de implementar");
+      if (notas == null || notas.length == 0){
+          throw new IllegalArgumentException();
+      }
+      int aprobados = 0;
+      for (int nota:notas){
+          if (nota >= 5){
+              aprobados++;
+          }
+      }
+      return aprobados;
+    }
+    public static int contarSuspensos(int[] notas) {
+        if (notas == null || notas.length == 0) {
+            throw new IllegalArgumentException();
+        }
+            int suspensos = 0;
+            for (int nota : notas) {
+                if (nota < 5) {
+                    suspensos++;
+                }
+            }
+            return suspensos;
+
+    }
+    public static int contarSuspensoTop ( int[] notas){
+
+        return -contarAprobados(notas) +notas.length;
     }
 }
