@@ -31,8 +31,11 @@ public final class Ejercicio01Sumar {
      */
 
     public static int sumar(int[] numeros) {
-        if (numeros == null || numeros.length == 0){
+        if (numeros == null ){
             throw new IllegalArgumentException("El array es nulo o vacio");
+        }
+        if (numeros.length == 0){
+            return 0;
         }
         int suma = 0;
       for (int numero:numeros){
